@@ -4,8 +4,9 @@ var app = express();
 var appRouter = require("./router/viewRouter")(app);
 app.use("/", appRouter);
 
-var router = require("./router/httpClientRouter")();
-app.use("/public", router);
+var router = require("./router/serviceRouter");
+app.use("/public", router.publicService());
+app.use("/private", router.privateService());
 
 app.set("views", __dirname + "/views");
 app.set("view engine", "ejs");
