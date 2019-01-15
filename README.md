@@ -12,7 +12,7 @@
 - Node.js로 만들었고, 샘플로 확인.
 
 # 자바 배포 설명
-- sample은 nodejs지만 설명은 자바로 돼 있음
+- sample은 nodejs지만 설명은 자바로 
 - https://devcenter.heroku.com/articles/getting-started-with-gradle-on-heroku 정확하게 설명나와있음
 
 # 시작
